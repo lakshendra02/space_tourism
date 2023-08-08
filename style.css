@@ -156,16 +156,9 @@ nav ul li:hover::after,
 .dest_content .dest_left img {
   margin-top: 2rem;
   width: 30vw;
-  animation: rotate 30s infinite linear;
 }
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
 .dest_content .dest_right {
   display: flex;
   flex-direction: column;
